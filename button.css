@@ -10,9 +10,13 @@ body, html {
 
 /* Vanta.js background container */
 #vanta-bg {
-    height: auto; /* Full viewport height */
-    width: auto;
+    /* height: auto; 
+    width: auto; */
     position: relative; /* So content inside is positioned relative */
+    padding-bottom:10% ;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* ensures padding is included in the width/height */
 }
 
 /* Header styles */
@@ -87,7 +91,7 @@ button:active {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1366px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* Styles for tablet devices */
     #vanta-bg {
         height: 100vh; /* Full viewport height */

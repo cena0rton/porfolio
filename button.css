@@ -106,7 +106,7 @@ button:active {
         margin: 0 auto;
         padding-top: 60px;
         padding-bottom: 60px;
-     color: #ddd;
+        color: rgb(71, 70, 70);
     }
     body{
         min-height: 100vh;
@@ -143,7 +143,7 @@ button:active {
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 60px;
- color: #ddd;
+    color: rgb(71, 70, 70);
 }
 body{
     min-height: 100vh;

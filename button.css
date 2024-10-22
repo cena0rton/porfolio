@@ -97,7 +97,7 @@ button:active {
     /* Styles for tablet devices */
     #vanta-bg {
         height: 100vh; /* Full viewport height */
-    width: 100%;
+    width: 100vh;
     position: relative;
     
     }

@@ -131,12 +131,15 @@ button:active {
 }
 body{
     height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 
 }
 .h{
     width: 100%;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     
 }
 }

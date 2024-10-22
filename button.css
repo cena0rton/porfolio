@@ -65,10 +65,11 @@ button {
     border: 1px solid #1a45c0; /* Blue border */
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0); /* Same as background */
-    color: #rgb(71, 70, 70); /* Blue text */
+    color: rgb(71, 70, 70); /* Blue text */
 
     cursor: pointer;
-    transition: opacity 0.2s, box-shadow 0.3s;
+    transition: opacity 0.2s;
+    box-shadow: 0.3s;
 }
 
 button:hover {

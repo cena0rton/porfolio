@@ -6,6 +6,7 @@ body, html {
     background-color: rgb(227,227, 227); /* Black background */
     color: #fff; /* White text */
     text-align: center;
+    
 }
 
 /* Vanta.js background container */
@@ -28,9 +29,9 @@ body, html {
     padding-top: 50px;
     margin-bottom: 50px;
     font-weight: bold;
+    text-decoration: ;
 
 }
-
 /* Paragraph styles */
 .p {
     font-family: Lexend Exa
@@ -62,37 +63,43 @@ button {
     margin: 10px;
     font-weight: 500;
     font-family: Lexend Exa; 
-    border: 1px solid #1a45c0; /* Blue border */
+    border: 1px solid rgba(248, 235, 235, 0); /* Blue border */
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0); /* Same as background */
     color: rgb(71, 70, 70); /* Blue text */
-
+    
     cursor: pointer;
     transition: opacity 0.1s;
-    box-shadow: 0.3s;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 button:hover {
-    opacity: 0.4;
-    background-color: rgba(62, 203, 247, 0.1);
+    /* opacity: 0.4; */
+    /* background-color: rgb(71, 70, 70, 0.1); */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    padding: 11px 22px;
+
 }
 
 button:active {
     opacity: 0.6;
 }
-
+.atag:hover{
+  color: rgba(75, 75, 75, 0.54) ;
+}
 /* Specific button classes */
 .subscribe {
-    border-color: rgb(62, 203, 247); /* Light blue */
-    ;
+    border-color: rgba(71, 70, 70, 0.397); 
+    
 }
 
 .join {
-    border-color: rgb(62, 203, 247);
+    border-color: rgba(71, 70, 70, 0.397); 
 }
 
 .tweet {
-    border-color: rgb(62, 203, 247);
+    border-color: rgba(71, 70, 70, 0.397); 
+    margin-bottom: 20px;
 }
 
 
